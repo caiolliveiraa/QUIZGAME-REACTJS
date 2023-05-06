@@ -11,7 +11,7 @@ const SelectField = props => {
 
   return (
     <Box mt={3} with="100%">
-        <FormControl>
+        <FormControl size="small" fullWidth>
             <InputLabel>{label}</InputLabel>
             <Select value={value} label={label} onChange={handleChange}>
                 <MenuItem>Option1</MenuItem>
